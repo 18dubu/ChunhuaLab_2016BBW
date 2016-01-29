@@ -18,6 +18,10 @@ The purpose of this project is to track the trend of clinical trial eligibility 
   
 2 ./script
   * all scripts (mainly python and R) used by this project
+  * main.py main script
+  * parameters.py all parameters specified here
+  * ./pylib python libraries used in the project
+  * ./rlib R library used in the project (for Rscript user, one can import the src.Rproj to run all R code) 
   
 3 ./result
   * some (middle) results
