@@ -14,11 +14,11 @@ The purpose of this project is to track the trend of clinical trial eligibility 
 ####Note: This github reppository contains most code and some data used by this project. Limited by file size, some big datasets and algorithms/softwares (all open to public) are not uploaded. Detailed information will be provided upon request.
 
 1 ./data
-  * contains some datasets used by this project
+  * contains some datasets used by this project< br/>
 2 ./script
-  * all scripts (mainly python and R) used by this project
+  * all scripts (mainly python and R) used by this project</br>
 3 ./result
-  * some (middle) results
+  * some (middle) results</br>
 
 
 ## Methods summary: with existing MySQL database
