@@ -11,7 +11,7 @@ The purpose of this project is to track the trend of clinical trial eligibility 
 
 # Project structure
 
-##Note: This github reppository contains most code and some data used by this project. Limited by file size, some big datasets and algorithms/softwares (all open to public) are not uploaded. Detailed information will be provided upon request.
+####Note: This github reppository contains most code and some data used by this project. Limited by file size, some big datasets and algorithms/softwares (all open to public) are not uploaded. Detailed information will be provided upon request.
 
 *./data*
 contains some datasets used by this project
@@ -21,7 +21,7 @@ all scripts (mainly python and R) used by this project
 some (middle) results 
 
 
-Methods summary: # with existing MySQL database
+## Methods summary: with existing MySQL database
 query: return trial list [[CT1 for drug1,CT2 for drug 1...],[CT for drug2]...] with the search of a certain drug name list
     (from clinicaltrials.gov search engine, not from database)
 extractRule/extractConcept
