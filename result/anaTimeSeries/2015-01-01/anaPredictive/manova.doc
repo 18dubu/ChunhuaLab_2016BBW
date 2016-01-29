@@ -1,0 +1,79 @@
+[1] "###########################MANOVA SUMMARY: phase-seperated trials"
+                                            Df   Pillai approx F num Df den Df   Pr(>F)   
+complete_set$marketDate                      1 0.034548   4.3836      2    245 0.013474 * 
+complete_set$group                           1 0.038404   4.8924      2    245 0.008253 **
+complete_set$marketDate:complete_set$group   1 0.017830   2.2239      2    245 0.110368   
+Residuals                                  246                                            
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+ Response 1 :
+                                            Df  Sum Sq Mean Sq F value  Pr(>F)  
+complete_set$marketDate                      1   26838   26838  0.6940 0.40562  
+complete_set$group                           1  239794  239794  6.2007 0.01343 *
+complete_set$marketDate:complete_set$group   1     954     954  0.0247 0.87534  
+Residuals                                  246 9513387   38672                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response 2 :
+                                            Df Sum Sq Mean Sq F value   Pr(>F)   
+complete_set$marketDate                      1  21551 21550.6  8.7122 0.003466 **
+complete_set$group                           1  18056 18055.7  7.2993 0.007378 **
+complete_set$marketDate:complete_set$group   1   8863  8863.0  3.5830 0.059547 . 
+Residuals                                  246 608511  2473.6                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+6 observations deleted due to missingness
+[1] "##########################MANOVA SUMMARY: (phase+date)-seperated trials"
+                                            Df   Pillai approx F num Df den Df    Pr(>F)    
+complete_set$marketDate                      1 0.184598  26.4875      2    234 4.271e-11 ***
+complete_set$group                           1 0.036729   4.4611      2    234   0.01255 *  
+complete_set$marketDate:complete_set$group   1 0.010468   1.2377      2    234   0.29194    
+Residuals                                  235                                              
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+ Response 1 :
+                                            Df Sum Sq Mean Sq F value    Pr(>F)    
+complete_set$marketDate                      1  73780   73780 28.2989 2.421e-07 ***
+complete_set$group                           1      0       0  0.0000    0.9985    
+complete_set$marketDate:complete_set$group   1    298     298  0.1143    0.7356    
+Residuals                                  235 612685    2607                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response 2 :
+                                            Df Sum Sq Mean Sq F value    Pr(>F)    
+complete_set$marketDate                      1  50818   50818 15.1242 0.0001311 ***
+complete_set$group                           1  29014   29014  8.6350 0.0036261 ** 
+complete_set$marketDate:complete_set$group   1   8348    8348  2.4845 0.1163217    
+Residuals                                  235 789610    3360                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+17 observations deleted due to missingness
+                                      Df   Pillai approx F num Df den Df   Pr(>F)    
+target_df$marketDate                   1 0.235540  24.6490      2    160 4.66e-10 ***
+target_df$group                        1 0.009735   0.7864      2    160   0.4572    
+target_df$marketDate:target_df$group   1 0.004954   0.3983      2    160   0.6721    
+Residuals                            161                                             
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+ Response 1 :
+                                      Df Sum Sq Mean Sq F value    Pr(>F)    
+target_df$marketDate                   1  54628   54628 14.7856 0.0001732 ***
+target_df$group                        1     57      57  0.0156 0.9009163    
+target_df$marketDate:target_df$group   1    295     295  0.0798 0.7779870    
+Residuals                            161 594837    3695                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response 2 :
+                                      Df Sum Sq Mean Sq F value    Pr(>F)    
+target_df$marketDate                   1  46451   46451 21.6339 6.844e-06 ***
+target_df$group                        1   3298    3298  1.5360    0.2170    
+target_df$marketDate:target_df$group   1   1717    1717  0.7996    0.3725    
+Residuals                            161 345689    2147                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+

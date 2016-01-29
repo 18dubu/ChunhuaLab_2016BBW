@@ -1,0 +1,784 @@
+[1] "Analyzing round:  2006-01-01"
+[1] 0.3901685 0.2018965 0.8668779
+[1] "KS4:  0.243303564624485"
+[1] 0.2297903 0.0820850 0.8668779
+[1] "KS4:  0.243303564624485"
+[1] "###Test date:  2006-01-01"
+[1] "###We include 17 drugs in the analysis"
+[1] "###Out of 7 BBWs 6 are unknown"
+mtry = 3  OOB error = 6.25% 
+Searching left ...
+mtry = 2 	OOB error = 6.25% 
+0 0.01 
+Searching right ...
+mtry = 4 	OOB error = 6.25% 
+0 0.01 
+[1] "!!!Validation date:  2006-01-01"
+[1] "!!!Out of 7 BBWs, 6 are unknown"
+ERROR 445: @ round 2006-01-01  ;Message zero non-NA points 
+[1] "!!!Validation date:  2007-01-01"
+[1] "!!!Out of 7 BBWs, 5 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.133333333333333 ;TestDate: 2006-01-01 ;Validate date: 2007-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2008-01-01"
+[1] "!!!Out of 7 BBWs, 5 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.133333333333333 ;TestDate: 2006-01-01 ;Validate date: 2008-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2009-01-01"
+[1] "!!!Out of 7 BBWs, 3 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.358974358974359 ;TestDate: 2006-01-01 ;Validate date: 2009-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2010-01-01"
+[1] "!!!Out of 7 BBWs, 1 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.272727272727273 ;TestDate: 2006-01-01 ;Validate date: 2010-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2011-01-01"
+[1] "!!!Out of 7 BBWs, 1 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.272727272727273 ;TestDate: 2006-01-01 ;Validate date: 2011-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2012-01-01"
+[1] "!!!Out of 7 BBWs, 1 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.272727272727273 ;TestDate: 2006-01-01 ;Validate date: 2012-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2013-01-01"
+[1] "!!!Out of 7 BBWs, 0 are unknown"
+[1] "No unknown BBWs from 2013-01-01"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.233333333333333 ;TestDate: 2006-01-01 ;Validate date: 2013-01-01"
+  |=============================================================================================================| 100%
+[1] "2014-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2015-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "Analyzing round:  2007-01-01"
+[1] 0.01550385 0.03019738 0.40656966
+[1] "KS4:  0.135013439670908"
+[1] 0.01550385 0.03019738 0.40656966
+[1] "KS4:  0.176274245132617"
+[1] "###Test date:  2007-01-01"
+[1] "###We include 24 drugs in the analysis"
+[1] "###Out of 10 BBWs 7 are unknown"
+mtry = 3  OOB error = 12.5% 
+Searching left ...
+mtry = 2 	OOB error = 12.5% 
+0 0.01 
+Searching right ...
+mtry = 4 	OOB error = 16.67% 
+-0.3333333 0.01 
+[1] "!!!Validation date:  2007-01-01"
+[1] "!!!Out of 10 BBWs, 7 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.111111111111111 ;TestDate: 2007-01-01 ;Validate date: 2007-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2008-01-01"
+[1] "!!!Out of 10 BBWs, 7 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.111111111111111 ;TestDate: 2007-01-01 ;Validate date: 2008-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2009-01-01"
+[1] "!!!Out of 10 BBWs, 5 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.442105263157895 ;TestDate: 2007-01-01 ;Validate date: 2009-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2010-01-01"
+[1] "!!!Out of 10 BBWs, 2 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.421875 ;TestDate: 2007-01-01 ;Validate date: 2010-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2011-01-01"
+[1] "!!!Out of 10 BBWs, 2 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.421875 ;TestDate: 2007-01-01 ;Validate date: 2011-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2012-01-01"
+[1] "!!!Out of 10 BBWs, 2 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.421875 ;TestDate: 2007-01-01 ;Validate date: 2012-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2013-01-01"
+[1] "!!!Out of 10 BBWs, 1 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.392592592592593 ;TestDate: 2007-01-01 ;Validate date: 2013-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2014-01-01"
+[1] "!!!Out of 10 BBWs, 0 are unknown"
+[1] "No unknown BBWs from 2014-01-01"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.435714285714286 ;TestDate: 2007-01-01 ;Validate date: 2014-01-01"
+  |=============================================================================================================| 100%
+[1] "2015-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "Analyzing round:  2008-01-01"
+[1] 0.05280357 0.02954800 0.44123317
+[1] "KS4:  0.559193242673355"
+[1] 0.01447555 0.01293490 0.44123317
+[1] "KS4:  0.122658743682595"
+[1] "###Test date:  2008-01-01"
+[1] "###We include 34 drugs in the analysis"
+[1] "###Out of 11 BBWs 8 are unknown"
+mtry = 3  OOB error = 8.82% 
+Searching left ...
+mtry = 2 	OOB error = 8.82% 
+0 0.01 
+Searching right ...
+mtry = 4 	OOB error = 8.82% 
+0 0.01 
+[1] "!!!Validation date:  2008-01-01"
+[1] "!!!Out of 11 BBWs, 8 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.247311827956989 ;TestDate: 2008-01-01 ;Validate date: 2008-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2009-01-01"
+[1] "!!!Out of 11 BBWs, 5 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.529761904761905 ;TestDate: 2008-01-01 ;Validate date: 2009-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2010-01-01"
+[1] "!!!Out of 11 BBWs, 2 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.524444444444444 ;TestDate: 2008-01-01 ;Validate date: 2010-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2011-01-01"
+[1] "!!!Out of 11 BBWs, 2 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.524444444444444 ;TestDate: 2008-01-01 ;Validate date: 2011-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2012-01-01"
+[1] "!!!Out of 11 BBWs, 2 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.524444444444444 ;TestDate: 2008-01-01 ;Validate date: 2012-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2013-01-01"
+[1] "!!!Out of 11 BBWs, 1 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.4875 ;TestDate: 2008-01-01 ;Validate date: 2013-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2014-01-01"
+[1] "!!!Out of 11 BBWs, 0 are unknown"
+[1] "No unknown BBWs from 2014-01-01"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.521739130434783 ;TestDate: 2008-01-01 ;Validate date: 2014-01-01"
+  |=============================================================================================================| 100%
+[1] "2015-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "Analyzing round:  2009-01-01"
+[1] 0.004136915 0.028115660 0.146156557
+[1] "KS4:  0.415092085145055"
+[1] 0.004136915 0.005840977 0.500419920
+[1] "KS4:  0.0869541162851795"
+[1] "###Test date:  2009-01-01"
+[1] "###We include 41 drugs in the analysis"
+[1] "###Out of 13 BBWs 6 are unknown"
+mtry = 3  OOB error = 19.51% 
+Searching left ...
+mtry = 2 	OOB error = 19.51% 
+0 0.01 
+Searching right ...
+mtry = 4 	OOB error = 19.51% 
+0 0.01 
+[1] "!!!Validation date:  2009-01-01"
+[1] "!!!Out of 13 BBWs, 6 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.659663865546218 ;TestDate: 2009-01-01 ;Validate date: 2009-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2010-01-01"
+[1] "!!!Out of 13 BBWs, 2 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.675757575757576 ;TestDate: 2009-01-01 ;Validate date: 2010-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2011-01-01"
+[1] "!!!Out of 13 BBWs, 2 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.675757575757576 ;TestDate: 2009-01-01 ;Validate date: 2011-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2012-01-01"
+[1] "!!!Out of 13 BBWs, 2 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.675757575757576 ;TestDate: 2009-01-01 ;Validate date: 2012-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2013-01-01"
+[1] "!!!Out of 13 BBWs, 1 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.637931034482759 ;TestDate: 2009-01-01 ;Validate date: 2013-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2014-01-01"
+[1] "!!!Out of 13 BBWs, 0 are unknown"
+[1] "No unknown BBWs from 2014-01-01"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.656593406593407 ;TestDate: 2009-01-01 ;Validate date: 2014-01-01"
+  |=============================================================================================================| 100%
+[1] "2015-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "Analyzing round:  2010-01-01"
+[1] 0.008335481 0.011108997 0.344153787
+[1] "KS4:  0.0819105353556933"
+[1] 0.0004615819 0.0008838263 0.1888756028
+[1] "KS4:  0.125523039266431"
+[1] "###Test date:  2010-01-01"
+[1] "###We include 47 drugs in the analysis"
+[1] "###Out of 15 BBWs 2 are unknown"
+mtry = 3  OOB error = 23.4% 
+Searching left ...
+mtry = 2 	OOB error = 25.53% 
+-0.09090909 0.01 
+Searching right ...
+mtry = 4 	OOB error = 23.4% 
+0 0.01 
+[1] "!!!Validation date:  2010-01-01"
+[1] "!!!Out of 15 BBWs, 2 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.764705882352941 ;TestDate: 2010-01-01 ;Validate date: 2010-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2011-01-01"
+[1] "!!!Out of 15 BBWs, 2 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.764705882352941 ;TestDate: 2010-01-01 ;Validate date: 2011-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2012-01-01"
+[1] "!!!Out of 15 BBWs, 2 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.764705882352941 ;TestDate: 2010-01-01 ;Validate date: 2012-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2013-01-01"
+[1] "!!!Out of 15 BBWs, 1 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.718614718614719 ;TestDate: 2010-01-01 ;Validate date: 2013-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2014-01-01"
+[1] "!!!Out of 15 BBWs, 0 are unknown"
+[1] "No unknown BBWs from 2014-01-01"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.7125 ;TestDate: 2010-01-01 ;Validate date: 2014-01-01"
+  |=============================================================================================================| 100%
+[1] "2015-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "Analyzing round:  2011-01-01"
+[1] 0.006607117 0.034696686 0.188875603
+[1] "KS4:  0.110948093800626"
+[1] 0.0003924359 0.0008159878 0.0907179533
+[1] "KS4:  0.0747117691489356"
+[1] "###Test date:  2011-01-01"
+[1] "###We include 51 drugs in the analysis"
+[1] "###Out of 15 BBWs 2 are unknown"
+mtry = 3  OOB error = 21.57% 
+Searching left ...
+mtry = 2 	OOB error = 19.61% 
+0.09090909 0.01 
+Searching right ...
+mtry = 4 	OOB error = 19.61% 
+0 0.01 
+[1] "!!!Validation date:  2011-01-01"
+[1] "!!!Out of 15 BBWs, 2 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.787449392712551 ;TestDate: 2011-01-01 ;Validate date: 2011-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2012-01-01"
+[1] "!!!Out of 15 BBWs, 2 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.787449392712551 ;TestDate: 2011-01-01 ;Validate date: 2012-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2013-01-01"
+[1] "!!!Out of 15 BBWs, 1 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.73938223938224 ;TestDate: 2011-01-01 ;Validate date: 2013-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2014-01-01"
+[1] "!!!Out of 15 BBWs, 0 are unknown"
+[1] "No unknown BBWs from 2014-01-01"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.742592592592593 ;TestDate: 2011-01-01 ;Validate date: 2014-01-01"
+  |=============================================================================================================| 100%
+[1] "2015-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "Analyzing round:  2012-01-01"
+[1] 0.05426949 0.08724593 0.39016854
+[1] "KS4:  0.115205823879373"
+[1] 0.0004987287 0.0008684674 0.1203143884
+[1] "KS4:  0.12252490618815"
+[1] "###Test date:  2012-01-01"
+[1] "###We include 58 drugs in the analysis"
+[1] "###Out of 17 BBWs 2 are unknown"
+mtry = 3  OOB error = 18.97% 
+Searching left ...
+mtry = 2 	OOB error = 20.69% 
+-0.09090909 0.01 
+Searching right ...
+mtry = 4 	OOB error = 18.97% 
+0 0.01 
+[1] "!!!Validation date:  2012-01-01"
+[1] "!!!Out of 17 BBWs, 2 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.753488372093024 ;TestDate: 2012-01-01 ;Validate date: 2012-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2013-01-01"
+[1] "!!!Out of 17 BBWs, 1 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.711309523809524 ;TestDate: 2012-01-01 ;Validate date: 2013-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2014-01-01"
+[1] "!!!Out of 17 BBWs, 0 are unknown"
+[1] "No unknown BBWs from 2014-01-01"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.713055954088953 ;TestDate: 2012-01-01 ;Validate date: 2014-01-01"
+  |=============================================================================================================| 100%
+[1] "2015-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "Analyzing round:  2013-01-01"
+[1] 0.06838925 0.11373171 0.22979027
+[1] "KS4:  0.085716973064056"
+[1] 0.001748134 0.007511618 0.120314388
+[1] "KS4:  0.128071075216145"
+[1] "###Test date:  2013-01-01"
+[1] "###We include 63 drugs in the analysis"
+[1] "###Out of 17 BBWs 1 are unknown"
+mtry = 3  OOB error = 14.29% 
+Searching left ...
+mtry = 2 	OOB error = 19.05% 
+-0.3333333 0.01 
+Searching right ...
+mtry = 4 	OOB error = 15.87% 
+-0.1111111 0.01 
+[1] "!!!Validation date:  2013-01-01"
+[1] "!!!Out of 17 BBWs, 1 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.705452127659575 ;TestDate: 2013-01-01 ;Validate date: 2013-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2014-01-01"
+[1] "!!!Out of 17 BBWs, 0 are unknown"
+[1] "No unknown BBWs from 2014-01-01"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.710358056265985 ;TestDate: 2013-01-01 ;Validate date: 2014-01-01"
+  |=============================================================================================================| 100%
+[1] "2015-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "Analyzing round:  2014-01-01"
+[1] 0.03479753 0.19146290 0.13533528
+[1] "KS4:  0.135541555538178"
+[1] 0.00255386 0.01831564 0.13533528
+[1] "KS4:  0.105102675477606"
+[1] "###Test date:  2014-01-01"
+[1] "###We include 67 drugs in the analysis"
+[1] "###Out of 18 BBWs 1 are unknown"
+mtry = 3  OOB error = 17.91% 
+Searching left ...
+mtry = 2 	OOB error = 19.4% 
+-0.08333333 0.01 
+Searching right ...
+mtry = 4 	OOB error = 17.91% 
+0 0.01 
+[1] "!!!Validation date:  2014-01-01"
+[1] "!!!Out of 18 BBWs, 1 are unknown"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.78235294117647 ;TestDate: 2014-01-01 ;Validate date: 2014-01-01"
+  |=============================================================================================================| 100%
+[1] "!!!Validation date:  2015-01-01"
+[1] "!!!Out of 18 BBWs, 0 are unknown"
+[1] "No unknown BBWs from 2015-01-01"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.738095238095238 ;TestDate: 2014-01-01 ;Validate date: 2015-01-01"
+  |=============================================================================================================| 100%
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "Analyzing round:  2015-01-01"
+[1] 0.03655916 0.19789870 0.13533528
+[1] "KS4:  0.113574744421285"
+[1] 0.002788217 0.011108997 0.065728529
+[1] "KS4:  0.102525158799095"
+[1] "###Test date:  2015-01-01"
+[1] "###We include 68 drugs in the analysis"
+[1] "###Out of 18 BBWs 0 are unknown"
+[1] "No unknown BBWs from 2015-01-01"
+mtry = 3  OOB error = 17.65% 
+Searching left ...
+mtry = 2 	OOB error = 19.12% 
+-0.08333333 0.01 
+Searching right ...
+mtry = 4 	OOB error = 20.59% 
+-0.1666667 0.01 
+[1] "!!!Validation date:  2015-01-01"
+[1] "!!!Out of 18 BBWs, 0 are unknown"
+[1] "No unknown BBWs from 2015-01-01"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.738888888888888 ;TestDate: 2015-01-01 ;Validate date: 2015-01-01"
+  |=============================================================================================================| 100%
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "Analyzing round:  2016-01-01"
+[1] 0.03655916 0.13533528 0.13533528
+[1] "KS4:  0.152231492277588"
+[1] 0.001525712 0.011108997 0.065728529
+[1] "KS4:  0.0800086188062866"
+[1] "###Test date:  2016-01-01"
+[1] "###We include 68 drugs in the analysis"
+[1] "###Out of 18 BBWs 0 are unknown"
+[1] "No unknown BBWs from 2016-01-01"
+mtry = 3  OOB error = 20.59% 
+Searching left ...
+mtry = 2 	OOB error = 17.65% 
+0.1428571 0.01 
+Searching right ...
+mtry = 4 	OOB error = 17.65% 
+0 0.01 
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+
+
+
+
+
+
+
+
+
+##########################run2 fix ###/!!! statistics bug; after feture selection###########################
+
+
+
+
+[1] "#############################"
+[1] "###Analyzing round:  2006-01-01"
+[1] "#############################"
+[1] 0.3901685 0.2018965 0.8668779
+[1] "KS4:  0.243303564624485"
+[1] 0.2297903 0.0820850 0.8668779
+[1] "KS4:  0.243303564624485"
+[1] "###Test date:  2006-01-01"
+[1] "###We include 17 drugs in the analysis"
+[1] "###Out of 7 BBWs 1 are known for training!"
+mtry = 2  OOB error = 6.25% 
+Searching left ...
+Searching right ...
+mtry = 3 	OOB error = 6.25% 
+0 0.01 
+[1] "!!!Validation date:  2006-01-01"
+[1] "!!!Out of 7 BBWs, 1 are known for validation set!"
+ERROR 445: @ round 2006-01-01  ;Message zero non-NA points 
+[1] "!!!Validation date:  2007-01-01"
+[1] "!!!Out of 7 BBWs, 2 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.133333333333333 ;TestDate: 2006-01-01 ;Validate date: 2007-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2008-01-01"
+[1] "!!!Out of 7 BBWs, 2 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.133333333333333 ;TestDate: 2006-01-01 ;Validate date: 2008-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2009-01-01"
+[1] "!!!Out of 7 BBWs, 4 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.384615384615385 ;TestDate: 2006-01-01 ;Validate date: 2009-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2010-01-01"
+[1] "!!!Out of 7 BBWs, 6 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.418181818181818 ;TestDate: 2006-01-01 ;Validate date: 2010-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2011-01-01"
+[1] "!!!Out of 7 BBWs, 6 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.418181818181818 ;TestDate: 2006-01-01 ;Validate date: 2011-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2012-01-01"
+[1] "!!!Out of 7 BBWs, 6 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.418181818181818 ;TestDate: 2006-01-01 ;Validate date: 2012-01-01"
+  |====================================================================================================| 100%
+[1] "No unknown BBWs from 2013-01-01"
+[1] "!!!Validation date:  2013-01-01"
+[1] "!!!Out of 7 BBWs, 7 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.333333333333333 ;TestDate: 2006-01-01 ;Validate date: 2013-01-01"
+  |====================================================================================================| 100%
+[1] "2014-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2015-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "#############################"
+[1] "###Analyzing round:  2007-01-01"
+[1] "#############################"
+[1] 0.01550385 0.03019738 0.40656966
+[1] "KS4:  0.135013439670908"
+[1] 0.01550385 0.03019738 0.40656966
+[1] "KS4:  0.176274245132617"
+[1] "###Test date:  2007-01-01"
+[1] "###We include 24 drugs in the analysis"
+[1] "###Out of 10 BBWs 3 are known for training!"
+mtry = 2  OOB error = 16.67% 
+Searching left ...
+Searching right ...
+mtry = 3 	OOB error = 16.67% 
+0 0.01 
+[1] "!!!Validation date:  2007-01-01"
+[1] "!!!Out of 10 BBWs, 3 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.222222222222222 ;TestDate: 2007-01-01 ;Validate date: 2007-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2008-01-01"
+[1] "!!!Out of 10 BBWs, 3 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.222222222222222 ;TestDate: 2007-01-01 ;Validate date: 2008-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2009-01-01"
+[1] "!!!Out of 10 BBWs, 5 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.421052631578947 ;TestDate: 2007-01-01 ;Validate date: 2009-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2010-01-01"
+[1] "!!!Out of 10 BBWs, 8 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.484375 ;TestDate: 2007-01-01 ;Validate date: 2010-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2011-01-01"
+[1] "!!!Out of 10 BBWs, 8 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.484375 ;TestDate: 2007-01-01 ;Validate date: 2011-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2012-01-01"
+[1] "!!!Out of 10 BBWs, 8 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.484375 ;TestDate: 2007-01-01 ;Validate date: 2012-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2013-01-01"
+[1] "!!!Out of 10 BBWs, 9 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.42962962962963 ;TestDate: 2007-01-01 ;Validate date: 2013-01-01"
+  |====================================================================================================| 100%
+[1] "No unknown BBWs from 2014-01-01"
+[1] "!!!Validation date:  2014-01-01"
+[1] "!!!Out of 10 BBWs, 10 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.421428571428571 ;TestDate: 2007-01-01 ;Validate date: 2014-01-01"
+  |====================================================================================================| 100%
+[1] "2015-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "#############################"
+[1] "###Analyzing round:  2008-01-01"
+[1] "#############################"
+[1] 0.05280357 0.02954800 0.44123317
+[1] "KS4:  0.559193242673355"
+[1] 0.01447555 0.01293490 0.44123317
+[1] "KS4:  0.122658743682595"
+[1] "###Test date:  2008-01-01"
+[1] "###We include 34 drugs in the analysis"
+[1] "###Out of 11 BBWs 3 are known for training!"
+mtry = 2  OOB error = 8.82% 
+Searching left ...
+Searching right ...
+mtry = 3 	OOB error = 8.82% 
+0 0.01 
+[1] "!!!Validation date:  2008-01-01"
+[1] "!!!Out of 11 BBWs, 3 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.446236559139785 ;TestDate: 2008-01-01 ;Validate date: 2008-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2009-01-01"
+[1] "!!!Out of 11 BBWs, 6 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.657738095238095 ;TestDate: 2008-01-01 ;Validate date: 2009-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2010-01-01"
+[1] "!!!Out of 11 BBWs, 9 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.611111111111111 ;TestDate: 2008-01-01 ;Validate date: 2010-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2011-01-01"
+[1] "!!!Out of 11 BBWs, 9 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.611111111111111 ;TestDate: 2008-01-01 ;Validate date: 2011-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2012-01-01"
+[1] "!!!Out of 11 BBWs, 9 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.611111111111111 ;TestDate: 2008-01-01 ;Validate date: 2012-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2013-01-01"
+[1] "!!!Out of 11 BBWs, 10 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.55625 ;TestDate: 2008-01-01 ;Validate date: 2013-01-01"
+  |====================================================================================================| 100%
+[1] "No unknown BBWs from 2014-01-01"
+[1] "!!!Validation date:  2014-01-01"
+[1] "!!!Out of 11 BBWs, 11 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.531620553359684 ;TestDate: 2008-01-01 ;Validate date: 2014-01-01"
+  |====================================================================================================| 100%
+[1] "2015-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "#############################"
+[1] "###Analyzing round:  2009-01-01"
+[1] "#############################"
+[1] 0.004136915 0.028115660 0.146156557
+[1] "KS4:  0.415092085145055"
+[1] 0.004136915 0.005840977 0.500419920
+[1] "KS4:  0.0869541162851795"
+[1] "###Test date:  2009-01-01"
+[1] "###We include 41 drugs in the analysis"
+[1] "###Out of 13 BBWs 7 are known for training!"
+mtry = 2  OOB error = 19.51% 
+Searching left ...
+Searching right ...
+mtry = 3 	OOB error = 21.95% 
+-0.125 0.01 
+[1] "!!!Validation date:  2009-01-01"
+[1] "!!!Out of 13 BBWs, 7 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.672268907563025 ;TestDate: 2009-01-01 ;Validate date: 2009-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2010-01-01"
+[1] "!!!Out of 13 BBWs, 11 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.712121212121212 ;TestDate: 2009-01-01 ;Validate date: 2010-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2011-01-01"
+[1] "!!!Out of 13 BBWs, 11 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.712121212121212 ;TestDate: 2009-01-01 ;Validate date: 2011-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2012-01-01"
+[1] "!!!Out of 13 BBWs, 11 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.712121212121212 ;TestDate: 2009-01-01 ;Validate date: 2012-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2013-01-01"
+[1] "!!!Out of 13 BBWs, 12 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.675287356321839 ;TestDate: 2009-01-01 ;Validate date: 2013-01-01"
+  |====================================================================================================| 100%
+[1] "No unknown BBWs from 2014-01-01"
+[1] "!!!Validation date:  2014-01-01"
+[1] "!!!Out of 13 BBWs, 13 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.686813186813187 ;TestDate: 2009-01-01 ;Validate date: 2014-01-01"
+  |====================================================================================================| 100%
+[1] "2015-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "#############################"
+[1] "###Analyzing round:  2010-01-01"
+[1] "#############################"
+[1] 0.008335481 0.011108997 0.344153787
+[1] "KS4:  0.0819105353556933"
+[1] 0.0004615819 0.0008838263 0.1888756028
+[1] "KS4:  0.125523039266431"
+[1] "###Test date:  2010-01-01"
+[1] "###We include 47 drugs in the analysis"
+[1] "###Out of 15 BBWs 13 are known for training!"
+mtry = 2  OOB error = 19.15% 
+Searching left ...
+Searching right ...
+mtry = 3 	OOB error = 19.15% 
+0 0.01 
+[1] "!!!Validation date:  2010-01-01"
+[1] "!!!Out of 15 BBWs, 13 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.785067873303168 ;TestDate: 2010-01-01 ;Validate date: 2010-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2011-01-01"
+[1] "!!!Out of 15 BBWs, 13 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.785067873303168 ;TestDate: 2010-01-01 ;Validate date: 2011-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2012-01-01"
+[1] "!!!Out of 15 BBWs, 13 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.785067873303168 ;TestDate: 2010-01-01 ;Validate date: 2012-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2013-01-01"
+[1] "!!!Out of 15 BBWs, 14 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.744588744588745 ;TestDate: 2010-01-01 ;Validate date: 2013-01-01"
+  |====================================================================================================| 100%
+[1] "No unknown BBWs from 2014-01-01"
+[1] "!!!Validation date:  2014-01-01"
+[1] "!!!Out of 15 BBWs, 15 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.754166666666667 ;TestDate: 2010-01-01 ;Validate date: 2014-01-01"
+  |====================================================================================================| 100%
+[1] "2015-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "#############################"
+[1] "###Analyzing round:  2011-01-01"
+[1] "#############################"
+[1] 0.006607117 0.034696686 0.188875603
+[1] "KS4:  0.110948093800626"
+[1] 0.0003924359 0.0008159878 0.0907179533
+[1] "KS4:  0.0747117691489356"
+[1] "###Test date:  2011-01-01"
+[1] "###We include 51 drugs in the analysis"
+[1] "###Out of 15 BBWs 13 are known for training!"
+mtry = 2  OOB error = 17.65% 
+Searching left ...
+Searching right ...
+mtry = 3 	OOB error = 17.65% 
+0 0.01 
+[1] "!!!Validation date:  2011-01-01"
+[1] "!!!Out of 15 BBWs, 13 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.825910931174089 ;TestDate: 2011-01-01 ;Validate date: 2011-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2012-01-01"
+[1] "!!!Out of 15 BBWs, 13 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.825910931174089 ;TestDate: 2011-01-01 ;Validate date: 2012-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2013-01-01"
+[1] "!!!Out of 15 BBWs, 14 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.805019305019305 ;TestDate: 2011-01-01 ;Validate date: 2013-01-01"
+  |====================================================================================================| 100%
+[1] "No unknown BBWs from 2014-01-01"
+[1] "!!!Validation date:  2014-01-01"
+[1] "!!!Out of 15 BBWs, 15 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.807407407407407 ;TestDate: 2011-01-01 ;Validate date: 2014-01-01"
+  |====================================================================================================| 100%
+[1] "2015-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "#############################"
+[1] "###Analyzing round:  2012-01-01"
+[1] "#############################"
+[1] 0.05426949 0.08724593 0.39016854
+[1] "KS4:  0.115205823879373"
+[1] 0.0004987287 0.0008684674 0.1203143884
+[1] "KS4:  0.12252490618815"
+[1] "###Test date:  2012-01-01"
+[1] "###We include 58 drugs in the analysis"
+[1] "###Out of 17 BBWs 15 are known for training!"
+mtry = 2  OOB error = 18.97% 
+Searching left ...
+Searching right ...
+mtry = 3 	OOB error = 17.24% 
+0.09090909 0.01 
+mtry = 4 	OOB error = 20.69% 
+-0.2 0.01 
+[1] "!!!Validation date:  2012-01-01"
+[1] "!!!Out of 17 BBWs, 15 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.8 ;TestDate: 2012-01-01 ;Validate date: 2012-01-01"
+  |====================================================================================================| 100%
+[1] "!!!Validation date:  2013-01-01"
+[1] "!!!Out of 17 BBWs, 16 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.767857142857143 ;TestDate: 2012-01-01 ;Validate date: 2013-01-01"
+  |====================================================================================================| 100%
+[1] "No unknown BBWs from 2014-01-01"
+[1] "!!!Validation date:  2014-01-01"
+[1] "!!!Out of 17 BBWs, 17 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.767575322812052 ;TestDate: 2012-01-01 ;Validate date: 2014-01-01"
+  |====================================================================================================| 100%
+[1] "2015-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "#############################"
+[1] "###Analyzing round:  2013-01-01"
+[1] "#############################"
+[1] 0.06838925 0.11373171 0.22979027
+[1] "KS4:  0.085716973064056"
+[1] 0.001748134 0.007511618 0.120314388
+[1] "KS4:  0.128071075216145"
+[1] "###Test date:  2013-01-01"
+[1] "###We include 63 drugs in the analysis"
+[1] "###Out of 17 BBWs 16 are known for training!"
+mtry = 2  OOB error = 17.46% 
+Searching left ...
+Searching right ...
+mtry = 3 	OOB error = 15.87% 
+0.09090909 0.01 
+mtry = 4 	OOB error = 15.87% 
+0 0.01 
+[1] "!!!Validation date:  2013-01-01"
+[1] "!!!Out of 17 BBWs, 16 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.793882978723404 ;TestDate: 2013-01-01 ;Validate date: 2013-01-01"
+  |====================================================================================================| 100%
+[1] "No unknown BBWs from 2014-01-01"
+[1] "!!!Validation date:  2014-01-01"
+[1] "!!!Out of 17 BBWs, 17 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.783887468030691 ;TestDate: 2013-01-01 ;Validate date: 2014-01-01"
+  |====================================================================================================| 100%
+[1] "2015-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "#############################"
+[1] "###Analyzing round:  2014-01-01"
+[1] "#############################"
+[1] 0.03479753 0.19146290 0.13533528
+[1] "KS4:  0.135541555538178"
+[1] 0.00255386 0.01831564 0.13533528
+[1] "KS4:  0.105102675477606"
+[1] "###Test date:  2014-01-01"
+[1] "###We include 67 drugs in the analysis"
+[1] "###Out of 18 BBWs 17 are known for training!"
+mtry = 2  OOB error = 14.93% 
+Searching left ...
+Searching right ...
+mtry = 3 	OOB error = 16.42% 
+-0.1 0.01 
+[1] "!!!Validation date:  2014-01-01"
+[1] "!!!Out of 18 BBWs, 17 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.80235294117647 ;TestDate: 2014-01-01 ;Validate date: 2014-01-01"
+  |====================================================================================================| 100%
+[1] "No unknown BBWs from 2015-01-01"
+[1] "!!!Validation date:  2015-01-01"
+[1] "!!!Out of 18 BBWs, 18 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.777777777777778 ;TestDate: 2014-01-01 ;Validate date: 2015-01-01"
+  |====================================================================================================| 100%
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "#############################"
+[1] "###Analyzing round:  2015-01-01"
+[1] "#############################"
+[1] 0.03655916 0.19789870 0.13533528
+[1] "KS4:  0.113574744421285"
+[1] 0.002788217 0.011108997 0.065728529
+[1] "KS4:  0.102525158799095"
+[1] "No unknown BBWs from 2015-01-01"
+[1] "###Test date:  2015-01-01"
+[1] "###We include 68 drugs in the analysis"
+[1] "###Out of 18 BBWs 18 are known for training!"
+mtry = 2  OOB error = 17.65% 
+Searching left ...
+Searching right ...
+mtry = 3 	OOB error = 20.59% 
+-0.1666667 0.01 
+[1] "No unknown BBWs from 2015-01-01"
+[1] "!!!Validation date:  2015-01-01"
+[1] "!!!Out of 18 BBWs, 18 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.792222222222222 ;TestDate: 2015-01-01 ;Validate date: 2015-01-01"
+  |====================================================================================================| 100%
+[1] "2016-01-01 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+[1] "#############################"
+[1] "###Analyzing round:  2015-04-09"
+[1] "#############################"
+[1] 0.03655916 0.13533528 0.13533528
+[1] "KS4:  0.152231492277588"
+[1] 0.001525712 0.011108997 0.065728529
+[1] "KS4:  0.0800086188062866"
+[1] "No unknown BBWs from 2015-04-09"
+[1] "###Test date:  2015-04-09"
+[1] "###We include 68 drugs in the analysis"
+[1] "###Out of 18 BBWs 18 are known for training!"
+mtry = 2  OOB error = 19.12% 
+Searching left ...
+Searching right ...
+mtry = 3 	OOB error = 22.06% 
+-0.1538462 0.01 
+[1] "No unknown BBWs from 2015-04-09"
+[1] "!!!Validation date:  2015-04-09"
+[1] "!!!Out of 18 BBWs, 18 are known for validation set!"
+[1] "!!!!!!!!!!!!!!!!!!Evolving auc: 0.788888888888889 ;TestDate: 2015-04-09 ;Validate date: 2015-04-09"
+  |====================================================================================================| 100%
+[1] "2016-04-09 passed! No mroe unknown BBW acquisition event. Refer to above AUC"
+

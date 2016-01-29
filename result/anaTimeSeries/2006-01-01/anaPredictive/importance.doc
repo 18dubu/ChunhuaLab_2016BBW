@@ -1,0 +1,7 @@
+                                       0 1 MeanDecreaseAccuracy MeanDecreaseGini
+marketDate                    -5.5444042 0           -5.5444042        0.4810225
+preMeanEnroll                 -0.3601127 0           -0.3601127        0.2542690
+ECdiseaseFocusDivergenceLevel -2.6495128 0           -2.6495128        0.6111640
+ECdiseaseFocusShiftLevel       1.3590450 0            1.3590450        0.7001794
+ECdrugFocusDivergenceLevel    -1.6152641 0           -1.6152641        0.4364622
+ECdrugFocusShiftLevel         -4.1567582 0           -4.1567582        0.2564322

@@ -1,0 +1,14 @@
+
+KS test for figure: Emerging Criteria Level for ROBUST/BBW Drugs: 
+0.166429587482219
+0.498855941588554
+the CDF of x lies above that of y
+Two-sample Kolmogorov-Smirnov test
+as.numeric(info[info$group == "BBW", ]$newOccureScore) and as.numeric(info[info$group == "ROBUST", ]$newOccureScore)
+
+KS test for figure: Emerging Criteria Level for ROBUST/BBW Drugs: 
+0.35
+0.0554760835191544
+the CDF of x lies below that of y
+Two-sample Kolmogorov-Smirnov test
+as.numeric(info[info$group == "BBW", ]$newOccureScore) and as.numeric(info[info$group == "ROBUST", ]$newOccureScore)

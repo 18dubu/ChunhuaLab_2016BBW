@@ -1,0 +1,124 @@
+Readme:
+
+This project is conducted by Handong Ma, advised by Prof. Chunhua Weng. Time: June, 2014-August 2014.
+
+The project is written in Python and R. The steps are described as follows:
+
+
+Data collection:
+
+#####################################START OF PYTHON PART##########################################################
+Main function is: @ ~/src/main.py
+Paramaters are stored in ~/src/parameters.py
+
+
+1. clinicaltrials.gov information(retrieveOnlineDrugTrialInfo)
+	Purpose: retrive drug-trial numbers based on clinicaltrials.gov search, for future selection, runtime: O(1h)
+	USING: ../data/ndc/product_prescription.csv for standard drug name list
+	Sample run: retrieveOnlineDrugTrialInfo(fh_ndc_source, fh_ctgov_drugTrialContent_csv, fh_ctgov_drugTrialContent_tab, fh_ctgov_drugTrialList_tab, fh_ctgov_drugTrialTmp)
+	Function location: @ ~/src/pylib/onlineresource/ctgov.py
+	Output location: fh_ctgov_drugTrialTmp('../result/drug_trial_tmp')
+	Output format: 
+		drugName	preTrialNum	postTrialNum	marketingDate	company	substanceName	pharmClass
+		AXIRON	158	15	20101201	Eli Lilly and Company	TESTOSTERONE	Androgen [EPC]|Androgen Receptor Agonists [MoA]|Androstanes [Chemical/Ingredient]
+	Note: Only consider human prescription drugs! Use PROPRIETARYNAME as standard
+
+2. Top selling drugs information (get_sales_table())
+	Purpose: find top sale drugs
+	Sample run: get_sales_table(para_drugSalesTargetYear_List, para_topSales_target_dir)
+	Function location: @ ~/src/pylib/onlineresource/sales.py
+	Output location: para_topSales_target_dir ('../result/topSales/')
+	Output format: files separated by years
+		Rank	Name	Company	sales	Change(in %)
+		1	Lipitor	Pfizer Inc	5,538,587	0.0%
+		2	Prevacid	Takeda Pharmaceuticals North America, Inc	3,568,558	0.0%
+	Notes: current format support before year 2011, for 2011 and 2012 data, need further modifications
+
+	
+3. PDR drug labeling information (crawl_PDR_drugSummary_BBW())
+	Purpose: From PDR website crawl all possible drug summaries including Boxed Warning text,
+	Sample Run: crawl_PDR_drugSummary_BBW(para_pdr_target_dir, para_pdr_source_url)
+	Function Location: @ ~/src/pylib/onlineresource/pdr.py
+	Output location: para_pdr_target_dir ('../result/PDR/')
+	Output format: 
+		Drug Name	PDR ID	Have BBW	BBW Text	site
+		abelcet	druglabelid=539	0	None	http://www.pdr.net/drug-summary/abelcet?druglabelid=539
+	Note: need a PDR network ID to get access to the content
+
+
+
+4. Select and map Drugs 	
+	a) Select top selling drugs: drugList_occursAtLeastOnceInAllYears(): {SELECTION 1}
+		Purpose: Using top sales information to find the most popular drugs as candidates
+		Sample Run: drugList_occursAtLeastOnceInAllYears()
+		Function location: @ ~/src/pylib/analysis/tfidf
+		Output format: return is list format, with drug names as keys and number of occurrence in all the years as values
+
+	b) Mapping BBW info: drugList_findBBWInfo() @tfidf.py
+		USING: PDR information by crawl_PDR_drugSummary_BBW()
+		Return Format: #output format is drug list with BBW info as values
+
+	c) Find CT list for each category 
+		getCTListWithPeriodFromDrugList_local() @ tfidf.py
+			USING: findCTListByDrug_local()
+				USING: input: fh_ctgov_drugTrialList_tab ('../result/drug_trial_List') [from: retrieveOnlineDrugTrialInfo()]
+
+	d) Select Eligible CT lists: selectEligibleDrugs() {SELECTION 2}
+		USING: selectEligibleDrugs() @tfidf.py
+			Only select trials with more than para_lowerLimit_CTperPerid(5) trials per period (PRE/POST)
+		Return format: {'arimidex': '', 'zyrtec-d': '', 'singulair': '', 'pentasa': ['NCT00545740', 'NCT00751699'],...}
+
+
+5. Save Current List: saveSelectedList()
+	Output location: para_selected_drugTrialList_dir ('../result/selected_drug_trial_List/')
+
+6. Retrieve XML, get and save all info from ct.gov: extractComponentFromXML_parse() + saveComp() @ tfidf.py
+	Output format: table with fields: 
+		(id, brief_title, official_title, conditions, agency, agency_class, source, authority, brief_summary, overall_status, start_date, gender, minimum_age, maximum_age, study_pop, criteria, enrollment, phase, study_type, location, intervention_type, intervention_name, enrollment_type, rules)
+	
+
+The following analysis is written in R, containing:
+Data integretion; Detailed analysis and picture drawing
+#####################################START OF R PART##########################################################
+The main program for this part is: ./src/r_main.R
+Functions are stored in: ./src/rlib/elitesLib.R
+
+DATA INTEGGRETION:
+Function: getIntegrateTable()
+
+
+ANALYSIS:
+
+
+The switch parameters show the basic functions for the r program:
+
+getIntegrateTable_switch = 'off' 	#generate integrate table
+generateMedParserInputs_switch = 'off'	#generate MedEx input files and run from shell
+getMedParserResult_switch = 'off'	#get drug data from output folder of MedEx (A)
+getSnowMedResult_switch = 'off'		#get matched disease information (B)
+getIntegratedTableUpdated_switch ='off'	#get the integrated table updated with detected diseases/drugs (A/B)
+
+#analysis steps:
+
+runCoherenceOccurenceTest_switch ='off'	#run coherence/occurrence(focus shift) test using disease/drug data respectively 
+matchPharmGKBName_switch = 'off'	#match PharmGKB name for future DDI/ADE use
+mappingADEOffsides_switch='off'		#analysis ADE
+mappingDDITwosides_switch='off'		#analysis DDI
+
+#The other file will be generated alone the way of running the program: most at ../result/anaCoherenceOccurrence folder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

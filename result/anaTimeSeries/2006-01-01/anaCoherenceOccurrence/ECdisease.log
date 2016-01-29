@@ -1,0 +1,30 @@
+Test details from r_main.R: 
+Time of running:  2015-04-10 20:45:55 
+
+KS test for figure: Coherent Shift of Eligibility Criteria: 
+0.294117647058824
+0.229790274673017
+the CDF of x lies above that of y
+Two-sample Kolmogorov-Smirnov test
+as.numeric(A$jsd_pre) and as.numeric(A$jsd_post)
+
+KS test for figure: Coherent Shift for Robust/BBW Drugs: 
+0.5
+0.0820849986238988
+the CDF of x lies above that of y
+Two-sample Kolmogorov-Smirnov test
+as.numeric(A_ROBUST$jsd_pre) and as.numeric(A_ROBUST$jsd_post)
+
+
+0.142857142857143
+0.866877899750182
+the CDF of x lies above that of y
+Two-sample Kolmogorov-Smirnov test
+as.numeric(A_BBW$jsd_pre) and as.numeric(A_BBW$jsd_post)
+
+KS test for figure: Emerging Criteria Level for ROBUST/BBW Drugs: 
+0.414285714285714
+0.243303564624485
+the CDF of x lies above that of y
+Two-sample Kolmogorov-Smirnov test
+as.numeric(info[info$group == "BBW", ]$newOccureScore) and as.numeric(info[info$group == "ROBUST", ]$newOccureScore)

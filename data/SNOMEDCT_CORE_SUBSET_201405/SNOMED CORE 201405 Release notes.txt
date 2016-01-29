@@ -1,0 +1,465 @@
+CORE Problem List Subset of SNOMED CT Release Notes
+===================================================
+
+201405 Version
+--------------
+
+1. Version of SNOMED CT - Jan 2014
+
+2. Version of UMLS - 2014AA
+
+3. The only change in this version is the update of UMLS CUIs to synchronize with the new release of UMLS.
+
+4. Concept counts are the same as 201402 version
+
+
+201402 Version
+--------------
+
+1. Version of SNOMED CT - Jan 2014
+
+2. Version of UMLS - 2013AB
+
+3. 22 concepts become inactive in the new version of SNOMED CT and are replaced with active concepts
+
+4. Concept counts:
+
+	Active in Subset	: 6,176
+	Retired	from Subset	:   149
+	Total			: 6,325
+
+5. Concept counts by SNOMED CT hierarchy (excluding concepts retired from Subset):
+
+	Clinical finding		: 5,339
+	Procedure			:   566
+	Situation with explicit context	:   210
+	Event				:    61
+	---------------------------------------
+	Total				: 6,176
+	
+
+201311 Version
+--------------
+
+1. Version of SNOMED CT - July 2013
+
+2. Version of UMLS - 2013AB
+
+3. The only change in this version is the update of UMLS CUIs to synchronize with the new release of UMLS.
+
+4. Concept counts are the same as 201308 version
+
+
+201308 Version
+--------------
+
+1. Version of SNOMED CT - July 2013
+
+2. Version of UMLS - 2013AA
+
+3. Changes in this version: 18 concepts become inactive in the new version of SNOMED CT and are replaced with active concepts, two concepts from the Social Context hierarchy (stem cell donor (person) and donor for liver transplant (person)) are replaced with concepts from the Situation hierarchy
+
+4. Concept counts:
+
+	Active in Subset	: 6,179
+	Retired	from Subset	:   127
+	Total			: 6,306
+
+5. Concept counts by SNOMED CT hierarchy (excluding concepts retired from Subset):
+
+	Clinical finding		: 5,342
+	Procedure			:   566
+	Situation with explicit context	:   210
+	Event				:    61
+	---------------------------------------
+	Total				: 6,179
+
+
+201305 Version
+--------------
+
+1. Version of SNOMED CT - Jan 2013
+
+2. Version of UMLS - 2013AA
+
+3. The only change in this version is the update of UMLS CUIs to synchronize with the new release of UMLS.
+
+4. Concept counts are the same as 201302 version
+
+
+201302 Version
+--------------
+
+1. Version of SNOMED CT - Jan 2013
+
+2. Version of UMLS - 2012AB
+
+3. Changes in this version are due to retirement of 2 concepts in SNOMED CT
+	
+4. Concept counts:
+
+	Active in Subset	: 6,179
+	Retired	from Subset	:   107
+	Total			: 6,286
+
+5. Concept counts by SNOMED CT hierarchy (excluding concepts retired from Subset):
+
+	Clinical finding		: 5,343
+	Procedure			:   566
+	Situation with explicit context	:   207
+	Event				:    61
+	Social context			:     2
+	---------------------------------------
+	Total				: 6,179
+
+
+201211 Version
+--------------
+
+1. Version of SNOMED CT - July 2012
+
+2. Version of UMLS - 2012AB
+
+3. The only change in this version is the update of UMLS CUIs to synchronize with the new release of UMLS.
+
+4. Concept counts are the same as 201208 version
+
+
+201208 Version
+--------------
+
+1. Version of SNOMED CT - July 2012
+
+2. Version of UMLS - 2012AA
+
+3. Changes in this version:
+	- update to the new SNOMED CT version
+	- incorporation of the problem list dataset from the Veterans Administration, which resulted in the addition of 320 new concepts
+
+4. Concept counts:
+
+	Active in Subset	: 6,181
+	Retired	from Subset	:   105
+	Total			: 6,286
+
+5. Concept counts by SNOMED CT hierarchy (excluding concepts retired from Subset):
+
+	Clinical finding		: 5,345
+	Procedure			:   566
+	Situation with explicit context	:   207
+	Event				:    61
+	Social context			:     2
+	---------------------------------------
+	Total				: 6,181
+	
+
+201205 Version
+--------------
+
+1. Version of SNOMED CT - Jan 2012
+
+2. Version of UMLS - 2012AA
+
+3. The only change in this version is the update of UMLS CUIs to synchronize with the new release of UMLS.
+
+4. Concept counts are the same as 201202 version
+
+
+201202 Version
+--------------
+
+1. Version of SNOMED CT - Jan 2012
+
+2. Version of UMLS - 2011AB
+
+3. Changes in this version are due to retirement of 11 concepts in SNOMED CT
+	
+4. Concept counts:
+
+	Total			: 5,964
+	Retired	from Subset	:   102
+	Active in Subset	: 5,862
+
+5. Concept counts by SNOMED CT hierarchy (excluding concepts retired from Subset):
+
+	Clinical finding		: 5,108
+	Procedure			:   503
+	Situation with explicit context	:   190
+	Event				:    59
+	Social context			:     2
+	---------------------------------------
+	Total				: 5,862
+	
+
+201111 Version
+--------------
+
+1. Version of SNOMED CT - July 2011
+
+2. Version of UMLS - 2011AB
+
+3. The only change in this version is the update of UMLS CUIs to synchronize with the new release of UMLS.
+
+4. Concept counts are the same as 201108 version
+
+
+201108 Version
+--------------
+
+1. Version of SNOMED CT - July 2011
+
+2. Version of UMLS - 2011AA
+
+3. Changes in this version are due to:
+	- retirement and replacement of concepts due to change in SNOMED CT
+	- re-mapping of previously unmappable local terms (137 new concepts added)
+	
+4. Concept counts:
+
+	Total			: 5,953
+	Retired	from Subset	:    91
+	Active in Subset	: 5,862
+
+5. Concept counts by SNOMED CT hierarchy (excluding concepts retired from Subset):
+
+	Clinical finding		: 5,108
+	Procedure			:   503
+	Situation with explicit context	:   190
+	Event				:    59
+	Social context			:     2
+	---------------------------------------
+	Total				: 5,862
+	
+
+201105 Version
+--------------
+
+1. Version of SNOMED CT - Jan 2011
+
+2. Version of UMLS - 2011AA
+
+3. The only change in this version is the update of UMLS CUIs to synchronize with the new release of UMLS.
+
+4. Concept counts are the same as 201102 version
+
+
+201102 Version
+--------------
+
+1. Version of SNOMED CT - Jan 2011
+
+2. Version of UMLS - 2010AB
+
+3. The change in this version is due to retirement of 4 concepts in SNOMED CT (now labeled as duplicate concepts). They are replaced by the corresponding current concepts.
+
+4. Concept counts:
+
+	Total			: 5,814
+	Retired	from Subset	:    89
+	Active in Subset	: 5,725
+
+5. Concept counts by SNOMED CT hierarchy (excluding concepts retired from Subset):
+
+	Clinical finding		: 5,004
+	Procedure			:   480
+	Situation with explicit context	:   182
+	Event				:    57
+	Social context			:     2
+	---------------------------------------
+	Total				: 5,725
+
+
+201011 Version
+--------------
+
+1. Version of SNOMED CT - July 2010
+
+2. Version of UMLS - 2010AB
+
+3. The only change in this version is the update of UMLS CUIs to synchronize with the new release of UMLS.
+
+4. Concept counts are the same as 201008 version
+
+
+
+201008 Version
+--------------
+
+1. Version of SNOMED CT - July 2010
+
+2. Version of UMLS - 2010AA
+
+3. The main change in this version is the addition of 60 new SNOMED CT concepts created upon our request. Other changes are results of synchronization with SNOMED CT and quality assurance.
+
+4. Concept counts:
+
+	Total			: 5,810
+	Retired	from Subset	:    85
+	Active in Subset	: 5,725
+
+5. Concept counts by SNOMED CT hierarchy (excluding concepts retired from Subset):
+
+	Clinical finding		: 5,004
+	Procedure			:   480
+	Situation with explicit context	:   182
+	Event				:    57
+	Social context			:     2
+	---------------------------------------
+	Total				: 5,725
+
+
+
+201005 Version
+--------------
+
+1. Version of SNOMED CT - Jan 2010
+
+2. Version of UMLS - 2010AA
+
+3. The only change in this version is the synchronization of UMLS_CUIs with the latest UMLS release. Only concepts that are still active in the Subset are updated.
+
+4. Concept counts:
+
+	Total			: 5,738
+	Retired	from Subset	:    70
+	Active in Subset	: 5,668
+
+5. Concept counts by SNOMED CT hierarchy (excluding concepts retired from Subset):
+
+	Clinical finding		: 4,953
+	Procedure			:   476
+	Situation with explicit context	:   181
+	Event				:    56
+	Social context			:     2
+	---------------------------------------
+	Total				: 5,668
+
+
+
+
+201002 Version
+--------------
+
+1. Version of SNOMED CT - Jan 2010
+
+2. Version of UMLS - 2009AB
+
+3. 550 new concepts are added. They are from two sources:
+	- additional manual review of local terms not previously mapped to SNOMED CT
+	- new SNOMED CT concepts added by IHTSDO upon our request to replace CORE concepts that are outside the 4 main hierarchies (Clinical finding, Procedure, Situation with explicit context, and Events) e.g. '444231005 Thymoma (disorder)' added which will replace '128856005 Thymoma, no ICD-O subtype (morphologic abnormality)'
+
+4. 59 concepts are newly retired. The majority of these are due to addition of new concepts as described above. Some are retired because they are no longer current in SNOMED CT.
+
+5. Change in the method of calculating OCCURRENCE and USAGE - previously these are calculated using all terms in the datasets, including those that are outside the 95% usage cutoff. From this version onwards, only terms within the cutoff are used. The new OCCURRENCE data will be different from the previous version, but the USAGE data are very similar. This will have minimal effect in the ranking of the concepts based on USAGE.
+
+6. Concept counts:
+
+	Total			: 5,738
+	Retired	from Subset	:    70
+	Active in Subset	: 5,668
+
+7. Concept counts by SNOMED CT hierarchy (excluding concepts retired from Subset):
+
+	Clinical finding		: 4,953
+	Procedure			:   476
+	Situation with explicit context	:   181
+	Event				:    56
+	Social context			:     2
+	---------------------------------------
+	Total				: 5,668
+
+
+200911 Version
+--------------
+
+1. Version of SNOMED CT - Jul 2009
+
+2. Version of UMLS - 2009AB
+
+3. The main change in this version is caused by synchronizing UMLS_CUIs with the latest UMLS release. Only concepts that are active in the Subset will be updated.
+
+4. The concepts are sorted in descending order of USAGE, showing active concepts before retired ones
+
+5. Concept counts:
+
+	Total			: 5,191
+	Retired	from Subset	:    11
+	Active in Subset	: 5,180
+
+6. Concept counts by SNOMED CT hierarchy (excluding concepts retired from Subset):
+
+	Clinical finding		: 4,537
+	Procedure			:   412
+	Situation with explicit context	:   145
+	Event				:    38
+	Body structure			:    46
+	Social context			:     2
+	---------------------------------------
+	Total				: 5,180
+
+
+
+200908 Version
+--------------
+
+1. Version of SNOMED CT - Jul 2009
+
+2. Version of UMLS - 2009AA
+
+3. Change in field names:
+
+		FSN 		-> SNOMED_FSN
+		CONCEPT_STATUS 	-> SNOMED_CONCEPT_STATUS
+		IS_RETIRED 	-> IS_RETIRED_FROM_SUBSET
+
+4. New fields:
+
+		FIRST_IN_SUBSET	: Version of Subset first containing this concept
+		LAST_IN_SUBSET	: Version of Subset last containing this concept
+		REPLACED_BY_SNOMED_CID	: SNOMED CT concept to replace concept retired from Subset
+
+5. SNOMED_CONCEPT_STATUS: descriptive names used instead of code
+
+5. USAGE: value rounded to 4 decimal places
+
+6. Concept counts:
+
+	Total			: 5,191
+	Retired	from Subset	:    11
+	Active in Subset	: 5,180
+
+7. Concept counts by SNOMED CT hierarchy (excluding concepts retired from Subset):
+
+	Clinical finding		: 4,537
+	Procedure			:   412
+	Situation with explicit context	:   145
+	Event				:    38
+	Body structure			:    46
+	Social context			:     2
+	---------------------------------------
+	Total				: 5,180
+	
+	
+
+200907 Version
+--------------
+
+1. This is the first release of the SNOMED CT CORE Subset
+
+2. Version of SNOMED CT - Jan 2009
+
+3. Version of UMLS - 2009AA
+
+4. Concept counts:
+
+	Total	: 5,182
+	Retired	: 0
+	
+5. Concept counts by SNOMED CT hierarchy:
+
+	Clinical finding		: 4,550
+	Procedure			:   414
+	Situation with explicit context	:   132
+	Event				:    38
+	Body structure			:    46
+	Social context			:     2
