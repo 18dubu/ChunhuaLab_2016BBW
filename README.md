@@ -57,4 +57,14 @@ The purpose of this project is to track the trend of clinical trial eligibility 
 
 ## Methods summary: with existing MySQL database
 query: return trial list [[CT1 for drug1,CT2 for drug 1...],[CT for drug2]...] with the search of a certain drug name list
-    
+
+
+## Contact
+
+For any question or request, please contact me at handongma.work at gmail.com
+
+`or`
+
+[Chunhua Weng's Lab](http://people.dbmi.columbia.edu/~chw7007/)
+
+
