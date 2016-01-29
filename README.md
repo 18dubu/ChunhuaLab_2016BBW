@@ -1,4 +1,6 @@
 # ChunhuaLab_2016BBW
+## aka: Project: EliTES (Eligibility criteria Tracking and Estimation System)
+
 Code and Data for 2016 JBI publication: "Black Box Warning Prediction by Mining Collective Patient Selection Patterns from Linked Public Data Resources"
 
 The purpose of this project is to track the trend of clinical trial eligibility criteria and
@@ -6,6 +8,17 @@ The purpose of this project is to track the trend of clinical trial eligibility 
 2) try to estimate the future drug performance
 3) generate the eligibility patients' profile and real-world patients' profile, find the gap between those two
 
+
+# Project structure
+
+##Note: This github reppository contains most code and some data used by this project. Limited by file size, some big datasets and algorithms/softwares (all open to public) are not uploaded. Detailed information will be provided upon request.
+
+*./data*
+contains some datasets used by this project
+*./script*
+all scripts (mainly python and R) used by this project
+*./result*
+some (middle) results 
 
 
 Methods summary: # with existing MySQL database
