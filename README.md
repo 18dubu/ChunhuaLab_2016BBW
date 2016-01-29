@@ -1,5 +1,5 @@
 # ChunhuaLab_2016BBW
-## aka: Project: EliTES (Eligibility criteria Tracking and Estimation System)
+#### aka: Project: EliTES (Eligibility criteria Tracking and Estimation System)
 
 Code and Data for 2016 JBI publication: "Black Box Warning Prediction by Mining Collective Patient Selection Patterns from Linked Public Data Resources"
 
@@ -29,10 +29,4 @@ The purpose of this project is to track the trend of clinical trial eligibility 
 
 ## Methods summary: with existing MySQL database
 query: return trial list [[CT1 for drug1,CT2 for drug 1...],[CT for drug2]...] with the search of a certain drug name list
-    (from clinicaltrials.gov search engine, not from database)
-extractRule/extractConcept
-mappingUMLS
-compareRules/compareConcepts/compareTrials
-aggregateRules/aggregateConcepts
-
-The program is reconstructed by Handong Ma (hm2588 at columbia dot edu) with previous work of Prof. Chunhua Weng's lab
+    
